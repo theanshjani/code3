@@ -1,0 +1,20 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int n1,n2,no;
+cout<<"Enter no.1 and no.2: "<<endl;
+cin>>n1>>n2;
+no=n1+n2;
+cout<<" "<<n1<<"+"<<" "<<n2<<"="<<" "<<no<<endl;
+no=n1-n2;
+cout<<" "<<n1<<"-"<<" "<<n2<<"="<<" "<<no<<endl;
+no=n1*n2;
+cout<<" "<<n1<<"*"<<" "<<n2<<"="<<" "<<no<<endl;
+no=n1/n2;
+cout<<" "<<n1<<"/"<<" "<<n2<<"="<<" "<<no<<endl;
+no=n1%n2;
+cout<<" "<<n1<<"%"<<" "<<n2<<"="<<" "<<no<<endl;
+getch();
+}
